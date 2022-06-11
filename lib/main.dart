@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Welcome to Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
+          title: const Text('Bemvido ao Flutter'),
         ),
         body: const Center(
           child: Text('Hello World'),
