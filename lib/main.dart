@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to Flutter',
+      title: 'Nomeador de Empresas',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Bemvido ao Flutter'),
+          title: const Text('Nomeador de Empresas'),
+          backgroundColor: Colors.orange,
         ),
         body: const Center(
           child: RandomWords(),
