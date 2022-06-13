@@ -14,9 +14,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Nomeador de Empresas',
-      home: RandomWords(),
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.brown,
+          foregroundColor: Colors.white,
+        ),
+      ),
+      home: const RandomWords(),
     );
   }
 }
